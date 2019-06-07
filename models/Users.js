@@ -38,6 +38,7 @@ module.exports = (sequelize, Datatypes)=>{
             allowNull : true,
             len:[8,20]
         },
+       //PERMISSION_ID gets created because of association written at index.js
         updated_at : { type : Datatypes.DATE},
         deleted_at : { type : Datatypes.DATE}
     },
